@@ -33,7 +33,7 @@ You can override the file path with `KNOWLEDGE_BASE_PATH`.
 You can override the maintenance threshold with `KNOWLEDGE_MAINTENANCE_EVERY` (default: `20`).
 Use `--reset-knowledge-base` if you want to clear it before a run.
 Use `--no-use-knowledge-base` if you want to disable both reading and writing the knowledge base for a run.
-Use `--knowledge-learning-limit-per-file N` if you only want the first `N` samples of each dataset JSON file to trigger reflection and write to the knowledge base. Samples after that still run detection, but skip reflection and knowledge-base updates. The default is `100`.
+Use `--knowledge-learning-limit-per-file N` if you only want the first `N` samples of each dataset JSON file to trigger reflection and write to the knowledge base. Samples after that still run detection, but skip reflection and knowledge-base updates. The default is `200`.
 
 ## Stages
 1. LLM router
